@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="topnav2.css" >
+    <link rel="stylesheet" href ="DisabilityForm.css">
+    <title>Disability Form</title>
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">About</a>
+        <a href="Symptoms.html">Symptoms</a>
+        <a href="Diagnosis.html">Diagnosis</a>
+        <a href="Treatments2.html">Treatments</a>
+        <a class="active" href="DisabilityForm.html">Survey</a>
+        </div>
+<h1>Disability Form </h1>
+<h3>By: Troy Luckey</h3>
+
+<form action="/action _page.php" method="POST">
+<label for ="fname">First Name</label>
+<input type ="text" id="fname" name = "fname"> <br> <br>
+<label for ="lname">Last Name</label>
+<input type ="text" id="lname" name ="lname"> <br> <br>
+<labal for ="Gender">Gender:</labal>
+<input type = "checkbox" id="sex" name = "  Male">Male
+<input type = "checkbox" id="sex" name="Female">Female
+<input type = "checkbox" id = "sex" name = "Other">Other
+<p>1. What type of Cerebral Palsy do you have ? </p>
+<select name = "Disability" id ="Disability">
+  <option value=""></option>
+    <option value ="Spastic Cerebral Palsy">Spastic Cerebral Palsy </option>
+    <option value ="Dyskinetic Cerebral Palsy">Dyskinetic Cerebral Palsy/option>
+    <option value ="Ataxic Cerebral Palsy"> Ataxic Cerebral Palsy</option>
+    <option value ="Mixed Cerebral Palsy">Mixed Cerebral Palsy</option>
+  </select>
+  <br>
+  <p>How long have you had Cerebral Palsy:</p>
+  <input type="radio" id="len" name ="1 year- 3 years">1-3 years
+  <input type ="radio" id ="len" name = "time">3-6 years
+  <input type = "radio" id ="len" name = "time">6-9 years
+  <input type = "radio" id = "len" name = "time">9-12 years
+  &nbsp;
+  <label for ="Other">Other:</label>
+  <input type = "text" id = "Other" name ="Other"> 
+  <br>
+  <br>
+  <label for="Birth">Date of Birth:</label>
+  <input type="date" id="Date" name="Date of Birth">
+<br>
+<br>
+<input type= "reset">
+<button type="cancel">Cancel</button>
+<input type = "submit">
+</form>
+
+</body>
+
+
+
+</html>
